@@ -1,0 +1,20 @@
+{
+    "youtube": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-aws-youtube-youtube-152255-authRole",
+            "UnauthRoleArn": "arn:aws:iam::127847013811:role/amplify-aws-youtube-youtube-152255-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::127847013811:role/amplify-aws-youtube-youtube-152255-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-aws-youtube-youtube-152255-deployment",
+            "UnauthRoleName": "amplify-aws-youtube-youtube-152255-unauthRole",
+            "StackName": "amplify-aws-youtube-youtube-152255",
+            "StackId": "arn:aws:cloudformation:us-west-2:127847013811:stack/amplify-aws-youtube-youtube-152255/556f79f0-1d36-11ea-9794-06bfbb1996ee",
+            "AmplifyAppId": "d30senl0p8b80v"
+        },
+        "categories": {
+            "auth": {
+                "awsyoutube8a189bfe": {}
+            }
+        }
+    }
+}

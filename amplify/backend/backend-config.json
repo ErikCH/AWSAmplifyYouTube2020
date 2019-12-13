@@ -1,0 +1,26 @@
+{
+	"auth": {
+		"awsyoutube8a189bfe": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"api": {
+		"awsyoutubeerik": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
+						"userPoolConfig": {
+							"userPoolId": "authawsyoutube8a189bfe"
+						}
+					}
+				}
+			}
+		}
+	}
+}
